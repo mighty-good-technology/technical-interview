@@ -32,5 +32,22 @@ There is nothing sacred about this code base. Feel free to generate a new projec
 you prefer to work with (ie `rspec` or different version or ruby).
 
 
+## The project
 
+In this project we will create a system for Hubs to set and view their schedules. Hubs are gig workers
+who handle picking up and receiving items to store at the their homes. The Hub needs to update thier
+schedule in our system weekly so that sellers can book time for the hub to receive their items.
+
+- As a Hub, I want to be able to specify my schedule.
+  - I can set my availability for any day and time
+  - I can create a new reservation in my schedule for an available period of time.
+    - I cannot have overlapping reservations
+    - I cannot be booked in the past
+  - I can request my availabity excluding reserved times.
+  - I can request my reservations.
+
+- As a developer:
+  - I can to interact with these models via a JSON API
+  - Authenicating requests to the API is out of scope for this project
+  - Creating a UI for use the API is out of scope for this project
 
