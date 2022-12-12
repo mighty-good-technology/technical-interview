@@ -1,24 +1,36 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this interview you will be pairing with your interviewer to create a Rails JSON API.
+The goal of this interview is to assess your architecture, database design,
+syntax, and code style. There is no goal to complete a specific task. We will simply use the alotted
+time to design and code in the process that you would normally use for _spiking_ a project.
 
-Things you may want to cover:
+## Before the interivew
 
-* Ruby version
+The only requirement before beginning the interview is to ensure that you can boot this code base
+in a local environment. It's up to you on how you will install ruby, bundler, and postgresql.
+After ensuring you have those base tools installed.  You should be able to run the following to setup the project.
 
-* System dependencies
+```
+bundle install
+rails db:create db:migrate
+```
 
-* Configuration
+You will know if the project is installed correctly if you can run `rails server` and see the
+rails getting started placeholder page at `http://localhost:3000/`. You should also ensure you can
+run `rails test` and see a successful run of the tests (which are empty)
 
-* Database creation
+### Customizing the repo
 
-* Database initialization
+This repo is a freshly generated rails project created with ruby `3.1.2` and running the command:
 
-* How to run the test suite
+```
+rails new technical-interview --api -d postgresql
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+There is nothing sacred about this code base. Feel free to generate a new project with any settings
+you prefer to work with (ie `rspec` or different version or ruby).
 
-* Deployment instructions
 
-* ...
+
+
