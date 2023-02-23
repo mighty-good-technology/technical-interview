@@ -43,7 +43,7 @@ schedule in our system weekly so that sellers can book time for the hub to recei
   - I can create a new reservation in my schedule for an available period of time.
     - I cannot have overlapping reservations
     - I cannot be booked in the past
-  - I can request my availabity excluding reserved times.
+  - I can request my availability excluding reserved times.
   - I can request my reservations.
 
 - As a developer:
